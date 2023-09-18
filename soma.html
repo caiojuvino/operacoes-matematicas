@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soma</title>
+    <link rel="stylesheet" href="soma.css" />
+  </head>
+  <body>
+    <div>
+      <input
+        type="number"
+        name="num1"
+        id="num1"
+        placeholder="Digite um número"
+        min="0"
+        max="4500000000000000"
+        inputmode="numeric"
+      />
+      <input
+        type="number"
+        name="num2"
+        id="num2"
+        placeholder="Digite um número"
+        min="0"
+        max="4500000000000000"
+        inputmode="numeric"
+      />
+      <div>
+        <input type="button" value="Somar" id="sum_btn" disabled />
+        <input type="button" value="Limpar" id="clear_btn" disabled />
+      </div>
+      <span id="operation"> </span>
+      <table>
+        <tbody id="rows">
+          <tr id="tr0">
+            <td>&nbsp;</td>
+          </tr>
+          <tr id="tr1">
+            <td>&nbsp;</td>
+          </tr>
+          <tr id="tr2">
+            <td>&nbsp;</td>
+          </tr>
+          <tr id="tr3">
+            <td>&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="soma.js"></script>
+  </body>
+</html>
